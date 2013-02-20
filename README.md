@@ -16,9 +16,3 @@ check_graphite accepts the following options:
 * `-c`: critical threshold for the metric
 * `-t`: timeout after which the metric should be considered unknown
 
-## How it works
-
-check_graphite, asks for a small window of metrics, and computes an average over the last valid
-points collected, it then checks the value against supplied thresholds.
-
-NaN values are not taken into account in the average
