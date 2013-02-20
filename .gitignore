@@ -1,1 +1,5 @@
 *~
+/debian/files
+/debian/nagios-check-elasticsearch.debhelper.log
+/debian/nagios-check-elasticsearch.substvars
+/debian/nagios-check-elasticsearch/
