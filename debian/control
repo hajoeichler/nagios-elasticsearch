@@ -1,0 +1,13 @@
+Source: nagios-check-elasticsearch
+Maintainer: Jens Braeuer <braeuer.jens@gmail.com>
+Section: misc
+Priority: optional
+Standards-Version: 2.0.1
+Build-Depends: debhelper (>= 8), rubygem19-fpm, gem2deb
+XS-Ruby-Versions: ruby1.9.1
+
+Package: nagios-check-elasticsearch
+Architecture: all
+XB-Ruby-Versions: ${ruby:Versions}
+Depends: ${misc:Depends}, rubygem19-json, nagios-plugins, rubygem19-nagios-check (> 0.2.0), rubygem19-excon
+Description: Check-Elasticsearch check
